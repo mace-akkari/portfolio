@@ -4,12 +4,17 @@ body{
 }
 
 .wrapper {
-  
+  max-width: 620px;
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+  grid-template-rows: repeat (5, clearçç1fr);
+  grid-row-gap: 10px;
+
 }
 
 
 .content {
-  margin: 0px 34px;
+  margin: 0px 7px;
 }
 
 .heading {
@@ -33,13 +38,6 @@ h2 {
   font-family: 'Six+Caps' , cursive;
 }
 
-
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-  float: left;
-}
 
 footer{
   width: 100%;
