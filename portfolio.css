@@ -1,7 +1,8 @@
 body{
   background-color: lightgray;
   margin: 0;
-}
+  font-family: 'Alegreya' , serif;
+};
 
 .wrapper {
   max-width: 100%;
@@ -9,12 +10,12 @@ body{
   grid-template-columns: repeat(6, 1fr);
   grid-row-gap: 10px;
 
-}
+};
 
 
 .content {
   margin: 0px 7px;
-}
+};
 
 .heading {
   margin: 0px auto 20px;
@@ -22,29 +23,26 @@ body{
   height: 250px;
   border: 4px solid black;
   background-color: white;
-}
+};
 
-footer, .content, .heading {
-  grid-column: 2/6;
-}
 
 h1,h2 {
   text-align: center;
-}
+};
 
 h1 {
   font-family: 'Graduate' , sans-serif;
   font-size: 80px;
-}
+};
 
 h2 {
-  font-family: 'Six+Caps' , cursive;
-}
+  font-size: 30px; 
+};
 
 
 footer{
   width: 100%;
-  height: 20px;
+  height: 30px;
   padding: 10px;
   background: white;
   color: black;
