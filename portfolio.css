@@ -4,16 +4,9 @@ html, body {
   font-family: 'Alegreya' , cursive;
 }
 
-
-
-.content > div > h3 {
-  text-align: center;
-  background-color: #ddffff;  
-  border-left: 8px solid black ;
-}
-
-.content > div > p {
-  margin: 0px 100px;
+.wrapper {
+  display: grid;
+  grid-template-rows: auto;
 }
 
 
@@ -31,13 +24,24 @@ h1,h2 {
 
 h1 {
   font-family: 'Graduate' , sans-serif;
-  font-size: 80px;
+  font-size: 60px;
+}
+
+.content > div > h3 {
+  text-align: center;
+  background-color: #ddffff;  
+  border-left: 8px solid black ;
+}
+
+.content p, 
+.content p > b {
+  margin: 0px 100px;
 }
 
 
 
-footer{
-  margin-top: 10px;
+footer {
+  margin-top: 20px;
   width: 100%;
   height: 60px;
   background: white;
@@ -47,4 +51,23 @@ footer{
   font-size: 20px;
   text-align: center;
   bottom: 0;  
+}
+
+
+@media only screen and (min-width : 500px) and (max-width : 1024px) {
+  html, body {
+      background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width : 1025px) {
+  html, body {
+      background-color: lightgoldenrodyellow;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  /* a grid in a grid for content section*/
 }
