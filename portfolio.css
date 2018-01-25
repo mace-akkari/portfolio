@@ -4,6 +4,10 @@ html, body {
   font-family: 'Alegreya' , cursive;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .wrapper {
   display: grid;
   grid-template-rows: auto;
@@ -12,13 +16,16 @@ html, body {
 
 .heading {
   width: 100%;
-  height: 250px;
+  height: 200px;
   border: 4px solid black;
   background-color: white;
 }
 
 
 h1,h2 {
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5px;
   text-align: center;
 }
 
@@ -27,15 +34,18 @@ h1 {
   font-size: 60px;
 }
 
+.about_me > h3 {
+  margin-top: 0px;
+}
+
 .content > div > h3 {
   text-align: center;
   background-color: #ddffff;  
   border-left: 8px solid black ;
 }
 
-.content p, 
-.content p > b {
-  margin: 0px 100px;
+.content p  {
+  margin: 0px 70px;
 }
 
 
@@ -43,7 +53,8 @@ h1 {
 footer {
   margin-top: 20px;
   width: 100%;
-  height: 60px;
+  /* height: 60px; why did this affect my content */ 
+ 
   background: white;
   color: black;
   border: 4px solid black;
