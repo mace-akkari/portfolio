@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "basic npm",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mace-akkari/portfolio.git"
+  },
+  "author": "maceplus@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mace-akkari/portfolio/issues"
+  },
+  "homepage": "https://github.com/mace-akkari/portfolio#readme",
+  "dependencies": {
+    "npm": "^5.6.0"
+  }
+}
