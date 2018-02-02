@@ -1,11 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "basic npm",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server",
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/mace-akkari/portfolio/issues"
   },
-  "homepage": "https://github.com/mace-akkari/portfolio#readme",
-  "dependencies": {
-    "npm": "^5.6.0"
-  }
+  "homepage": "https://github.com/mace-akkari/portfolio#readme"
 }
