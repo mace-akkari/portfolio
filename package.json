@@ -1,9 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "porfolio",
   "main": "index.js",
   "scripts": {
+    "serve": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mace-akkari/portfolio/issues"
   },
-  "homepage": "https://github.com/mace-akkari/portfolio#readme"
+  "homepage": "https://github.com/mace-akkari/portfolio#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
