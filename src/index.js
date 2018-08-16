@@ -1,5 +1,5 @@
 import './portfolio.css';
-import  './icon.png';
+import  './images/css-logo.jpg';
 
 /*
 +   // Add the image to our existing div.
