@@ -71,14 +71,13 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__portfolio_css__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__portfolio_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__portfolio_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__icon_png__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__icon_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__icon_png__);
+throw new Error("Cannot find module \"./icon.png\"");
 
 
 
 /*
 +   // Add the image to our existing div.
-+   var myIcon = new Image();
++   let myIcon = new Image();
 +   myIcon.src = Icon;
 +
 +   element.appendChild(myIcon);
@@ -143,7 +142,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "html, body {\n  background-color: lightgrey;\n  margin: 0;\n  font-family: 'Alegreya' , cursive;\n}\n\n* {\n  box-sizing: border-box;\n  list-style-type: none;\n  text-decoration: none;\n}\n\n\n\n.heading {\n  width: 100%;\n  height: 200px;\n  border: 4px solid black;\n  background-color: white;\n}\n\n\nh1,h2 {\n  border-radius: 5px;\n  overflow: hidden;\n  margin: 5px;\n  text-align: center;\n}\n\nh1 {\n  font-family: 'Graduate' , sans-serif;\n  font-size: 60px;\n}\n\n.about_me > h3 {\n  margin-top: 0px;\n}\n\n.content > div > h3 {\n  text-align: center;\n  background-color: #ddffff;  \n  border-left: 8px solid black ;\n}\n\n.content p  {\n  margin: 0px 70px;\n}\n\n.projects {\n  display: none;\n}\n\n\n.skills_container{\n  display: grid;\n  grid-template-rows: auto;\n  grid-gap: 10px;\n  padding: 0px 70px;\n}\n\n.skills_item {\n  background-color: white;\n  border: 4px solid black;\n  text-align: center; \n  \n}\n\n\nfooter {\n  margin-top: 20px;\n  width: 100%;\n  height: 200px;\n  background: white;\n  color: black;\n  border: 4px solid black;\n  font-weight: bold;\n  font-size: 20px;\n  text-align: center;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  align-self: baseline;\n}\n\n/*-------------------------------------------------------------------------*/\n\n@media only screen and (min-width : 434px) and (max-width : 1024px) {\n  html, body {\n      background-color: lightblue;\n  }\n\n  .heading {\n    height: 120px;\n  }\n\n\n  .skills_container {\n    grid-template-columns: repeat(2, 1fr);\n    justify-content: center;\n    grid-gap: 12px;\n  }\n\n  .skills_item, .logo {\n    margin: auto;\n    width: 200px;\n    height: 200px;\n    line-height: 200px;\n    transition-duration: 3s;\n  }\n\n  .skills_item:hover, .logo:hover {\n    width: 250px;\n    height: 250px;\n    border-radius: 50%;\n    transform: rotate(360deg);\n  }\n\n  \n}\n/*-------------------------------------------------------------------------*/\n\n  @media only screen and (min-width : 1025px) {\n  html, body {\n      background-color: lightgoldenrodyellow;\n  }\n\n  h1 {\n    font-size: 80px;\n  }\n\n  .skills_container {\n    grid-template-columns: repeat(3, 1fr);\n    justify-content: center;\n    grid-gap: 12px;\n  }\n\n  .skills_item, .logo {\n    width: 200px;\n    height: 200px;\n    line-height: 200px;\n    margin: auto;\n    border-radius: 50%;\n    transition-duration: 3s;\n  }\n\n  .skills_item:hover, .logo:hover {\n    width: 250px;\n    height: 250px;\n    border-radius: 0%;\n    transform: rotate(360deg);\n  }\n  \n}", ""]);
+exports.push([module.i, "html, body {\n  background-color: lightgrey;\n  margin: 0;\n  font-family: 'Alegreya' , cursive;\n}\n\n* {\n  box-sizing: border-box;\n  list-style-type: none;\n  text-decoration: none;\n}\n\n\n\n.heading {\n  width: 100%;\n  height: 200px;\n  border: 4px solid black;\n  background-color: white;\n}\n\n\nh1,h2 {\n  border-radius: 5px;\n  overflow: hidden;\n  margin: 5px;\n  text-align: center;\n}\n\nh1 {\n  font-family: 'Graduate' , sans-serif;\n  font-size: 60px;\n}\n\n.about_me > h3 {\n  margin-top: 0px;\n}\n\n.content > div > h3 {\n  text-align: center;\n  background-color: #ddffff;  \n  border-left: 8px solid black ;\n}\n\n.content p  {\n  margin: 0px 70px;\n}\n\n.projects {\n  display: none;\n}\n\n\n.skills_container{\n  display: grid;\n  grid-template-rows: auto;\n  grid-gap: 10px;\n  padding: 0px 70px;\n}\n\n.skills_item {\n  background-color: white;\n  border: 4px solid black;\n  text-align: center; \n  \n}\n\n\nfooter {\n  margin-top: 20px;\n  width: 100%;\n  height: 75px;\n  background: white;\n  color: black;\n  border: 4px solid black;\n  font-weight: bold;\n  font-size: 20px;\n  text-align: center;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  align-self: baseline;\n}\n\n/*-------------------------------------------------------------------------*/\n\n@media only screen and (min-width : 434px) and (max-width : 1024px) {\n  html, body {\n      background-color: lightblue;\n  }\n\n  .heading {\n    height: 120px;\n  }\n\n\n  .skills_container {\n    grid-template-columns: repeat(2, 1fr);\n    justify-content: center;\n    grid-gap: 12px;\n  }\n\n  .skills_item, .logo {\n    margin: auto;\n    width: 200px;\n    height: 200px;\n    line-height: 200px;\n    transition-duration: 3s;\n  }\n\n  .skills_item:hover {\n    width: 250px;\n    height: 250px;\n    margin: 0;\n    border-radius: 50%;\n    transform: rotate(360deg);\n  }\n\n  \n}\n/*-------------------------------------------------------------------------*/\n\n  @media only screen and (min-width : 1025px) {\n  html, body {\n      background-color: lightgoldenrodyellow;\n  }\n\n  h1 {\n    font-size: 80px;\n  }\n\n  .skills_container {\n    grid-template-columns: repeat(3, 1fr);\n    justify-content: center;\n    grid-gap: 12px;\n  }\n\n  .skills_item {\n    width: 200px;\n    height: 200px;\n    line-height: 200px;\n    margin: auto;\n    border-radius: 50%;\n  }\n\n  .skills_item:hover {\n    margin: 0;\n    width: 250px;\n    height: 250px;\n    border-radius: 0%;\n    transition-duration: 3s;\n    transform: rotate(360deg);\n  }\n  \n}", ""]);
 
 // exports
 
@@ -706,12 +705,6 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "d41d8cd98f00b204e9800998ecf8427e.png";
 
 /***/ })
 /******/ ]);
