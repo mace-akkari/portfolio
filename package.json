@@ -4,6 +4,7 @@
   "description": "porfolio",
   "main": "index.js",
   "scripts": {
+    "build": "webpack-dev-server --open",
     "start": "webpack",
     "serve": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
