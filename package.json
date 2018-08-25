@@ -4,8 +4,9 @@
   "description": "porfolio",
   "main": "index.js",
   "scripts": {
-    "build": "webpack-dev-server --open",
-    "start": "webpack",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
     "serve": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,10 +27,10 @@
     "http-server": "^0.11.1",
     "loader": "^2.1.1",
     "style-loader": "^0.20.2",
-    "webpack": "^3.11.0",
+    "webpack": "^3.12.0",
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
-    "npm": "^5.6.0"
+    "npm": "^5.10.0"
   }
 }
