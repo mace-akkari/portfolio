@@ -62,10 +62,13 @@ h1 {
   background-color: white;
   border: 4px solid black;
   text-align: center; 
-  overflow: hidden;
-  align-content: center;
 }
 
+.skills_item, .logo {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
 
 footer {
   margin-top: 20px;
@@ -82,10 +85,10 @@ footer {
   left: 0;
   align-self: baseline;
 }
-
+  
 /*-------------------------------------------------------------------------*/
-
 @media only screen and (min-width : 434px) {
+
   html, body {
       background-color: lightblue;
   }
@@ -94,36 +97,35 @@ footer {
     height: 120px;
   }
 
-
   .skills_container {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     grid-gap: 12px;
   }
 
-  .skills_item, .logo {
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    transition-duration: 3s;
+  .skills_item {
+    overflow: hidden;
   }
 
-  .skills_item:hover {
-    width: 250px;
-    height: 250px;
-    margin: 0;
+  .skills_item, .logo {
+    width: 200px;
+    height: 200px;
+    margin: auto;
     border-radius: 50%;
+  }
+
+  .skills_item:hover, .logo {
+    border-radius: 0%;
+    transition-duration: 3s;
     transform: rotate(360deg);
   }
 
-  
 }
 /*-------------------------------------------------------------------------*/
-
   @media only screen and (min-width : 1025px) {
+
   html, body {
-      background-color: lightgoldenrodyellow;
+      background-color: rgb(92, 92, 19);
   }
 
   h1 {
@@ -135,5 +137,5 @@ footer {
     justify-content: center;
     grid-gap: 12px;
   }
-  
+
 }
