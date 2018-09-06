@@ -1,2 +1,2 @@
 import './portfolio.css';
-// import  /icon.svg ?? './images';
+import Image  from  './images';
