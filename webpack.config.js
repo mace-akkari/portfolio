@@ -4,19 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    entry: {
-        app: './src/index.js',
-    },
-    plugins: [
-        new CleanWebpackPlugin(['dist']),
-        new HtmlWebpackPlugin({
-            title: 'Portfolio',
-            template: './src/index.html'}),
-        new CopyWebpackPlugin([
-            { from: './src/images/*', to: 'images', flatten: true}
-            //{ from: './src/portfolio.css', to: 'styles'}
-          ]),        
-    ],
+    entry: './src/index.js',
     output: {
         filename: 'portfolio.bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -35,10 +23,19 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader'
-                ]
+                use: 'file-loader'
             }]
     },
+    plugins: [
+        new CleanWebpackPlugin(['dist']),
+        new HtmlWebpackPlugin({
+            title: 'Portfolio',
+            template: './src/index.html'
+        }),
+        new CopyWebpackPlugin([
+            {from: './src/images/*', to: 'images', flatten: true}
+            //{ from: './src/portfolio.css', to: 'styles'}
+          ]),        
+    ]
 
 };
