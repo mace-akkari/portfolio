@@ -1,5 +1,4 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
@@ -13,29 +12,14 @@ module.exports = {
         contentBase: './dist'
     },
     module: {
-        rules: [
-            {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
-            },
-            {
-                test: /\.(png|svg|jpg|gif)$/,
-                use: 'file-loader'//?name=[name].[ext]&outputPath=images/'
-            }]
+        rules: []
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
-        new HtmlWebpackPlugin({
-            title: 'Portfolio',
-            template: './src/index.html'
-        }),
         new CopyWebpackPlugin([
-            {from: './src/images/*', to: 'images', flatten: true}
-            //{ from: './src/portfolio.css', to: 'styles'}
+            {from: './src/index.html', to: 'index.html', flatten: true},
+            {from: './src/images/*', to: 'images', flatten: true},
+            {from: './src/portfolio.css', to: 'styles'}
           ]),        
     ]
-
 };
