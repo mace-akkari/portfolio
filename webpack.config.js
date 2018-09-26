@@ -19,7 +19,7 @@ module.exports = {
         new CopyWebpackPlugin([
             {from: './src/index.html', to: 'index.html', flatten: true},
             {from: './src/images/*', to: 'images', flatten: true},
-            {from: './src/portfolio.css', to: 'styles'}
+            {from: './src/portfolio.css', to: 'styles', flatten: true}
           ]),        
     ]
 };
