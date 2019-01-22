@@ -1,13 +1,16 @@
 html, body {
-  background-color: lightgrey;
+  background-color: #d4eef5;
   margin: 0;
-  font-family: 'Alegreya' , cursive;
+  font-family: 'Alegreya' , sans-serif;
 }
 
 * {
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+}
+ul {
+  padding: 0;
 }
 
 .heading {
@@ -19,6 +22,7 @@ html, body {
 
 
 h1,h2 {
+  font-family: 'Graduate' , sans-serif;
   border-radius: 5px;
   overflow: hidden;
   margin: 5px;
@@ -26,7 +30,6 @@ h1,h2 {
 }
 
 h1 {
-  font-family: 'Graduate' , sans-serif;
   font-size: 60px;
 }
 
@@ -40,8 +43,9 @@ h1 {
 
 .content h3 {
   text-align: center;
-  background-color: #ddffff;  
-  border-left: 8px solid black ;
+  background-color: #e2f3f7;  
+  border-left: 8px solid black;
+  border-bottom: 2px solid darkgrey 
 }
 
 .content p  {
