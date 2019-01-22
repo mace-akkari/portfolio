@@ -1,5 +1,5 @@
 html, body {
-  background-color: #d4eef5;
+  background-color: #e2f3f7;
   margin: 0;
   font-family: 'Alegreya' , sans-serif;
 }
@@ -43,7 +43,7 @@ h1 {
 
 .content h3 {
   text-align: center;
-  background-color: #e2f3f7;  
+  background-color: #d4eef5;
   border-left: 8px solid black;
   border-bottom: 2px solid darkgrey 
 }
