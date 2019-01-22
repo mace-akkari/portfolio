@@ -37,10 +37,6 @@ h1 {
   margin-top: 0px;
 }
 
-.about_me p {
-  font-size: 12px
-}
-
 .content h3 {
   text-align: center;
   background-color: #d4eef5;
@@ -51,11 +47,10 @@ h1 {
 .content p  {
   margin: 0px 70px;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .projects {
- 
+  display: grid;
 }
 
 .skills_container{
