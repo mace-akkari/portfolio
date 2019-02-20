@@ -37,7 +37,7 @@ h1 {
   margin-top: 0px;
 }
 
-.content h3 {
+h3 {
   text-align: center;
   background-color: #d4eef5;
   border-left: 8px solid black;
@@ -49,9 +49,22 @@ h1 {
   font-size: 20px;
 }
 
-.projects {
+/* .projects {
+} */
+
+/* .project_container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2px;
+} */
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 15px;
+  border: 2px solid black;
 }
+
 
 .skills_container{
   display: grid;
