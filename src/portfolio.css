@@ -49,24 +49,21 @@ h3 {
   font-size: 20px;
 }
 
-/* .projects {
-} */
-
-/* .project_container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 2px;
-} */
-
-.project {
+ .projects_contianer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-column-gap: 15px;
+  grid-gap: 8px;
+  
+} 
+
+.project {
+  margin: 0px 70px;
+  text-align: center;
   border: 2px solid black;
 }
 
 
-.skills_container{
+.skills_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
