@@ -46,7 +46,7 @@ h3 {
 
 .content p  {
   margin: 0px 70px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
  .projects_contianer {
@@ -56,15 +56,27 @@ h3 {
 } 
 
 .project {
-  margin: 0px 70px;
+  margin: 0px 10px;
   text-align: center;
   border: 2px solid black;
 }
 
+.project li {
+  padding-bottom: 8px;
+}
+
+.projects_img {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-column-gap: 6px;
+  text-align: center;
+}
+
 .projects_pic {
   height: 200px;
-  margin: auto;
   overflow: hidden;
+  display: inline-block
+
 }
 
 .skills_container {
