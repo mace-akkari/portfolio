@@ -66,12 +66,12 @@ h3 {
 }
 
 .projects_img {
-  grid-column-gap: 6px;
   text-align: center;
 }
 
 .projects_pic {
-  height: 200px;
+  max-width: 80%;
+  max-height: 80%;
   overflow: hidden;
   display: inline-block
 
@@ -135,20 +135,12 @@ footer {
     width: 200px;
     height: 200px;
     margin: auto;
-    border-radius: 50%;
-    transition: width 3s, height 3s, transform 3s;
   }
 
   .logo {
     width: 145px;
   }
-
-  .skills_item:hover, .logo {
-    border-radius: 0%;
-    transition: 3s; 
-    transform: rotate(360deg);
-  }
-
+  
 }
 /*-------------------------------------------------------------------------*/
   @media only screen and (min-width : 1025px) {
