@@ -66,6 +66,7 @@ h3 {
 }
 
 .projects_img {
+  display: grid;
   text-align: center;
 }
 
@@ -122,6 +123,10 @@ footer {
   .heading {
     height: 130px;
   }
+
+  /* .projects_img {
+    grid-template-columns: repeat(2, 1fr);
+  } */
 
   .skills_container {
     grid-template-columns: repeat(2, 1fr);
