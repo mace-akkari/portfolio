@@ -75,8 +75,16 @@ h3 {
 .projects_pic {
   max-width: 40%;
   overflow: hidden;
-  display: inline-block
+  display: inline-block;
+}
 
+.mobile_view {
+  max-width: 85%;
+}
+
+.web_view {
+  max-width: 90%;
+  border: 2px solid grey;
 }
 
 .skills_container {
