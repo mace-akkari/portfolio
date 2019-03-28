@@ -17,7 +17,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new CopyWebpackPlugin([
-            {from: './src/index.html', to: 'index.html', flatten: true},
+            {from: 'index.html', to: 'index.html', flatten: true},
             {from: './src/images/skills/*', to: 'images/skills', flatten: true},
             {from: './src/images/projects/*', to: 'images/projects', flatten: true},
             {from: './src/portfolio.css', to: 'styles', flatten: true}
