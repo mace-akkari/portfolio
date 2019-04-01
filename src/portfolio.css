@@ -137,6 +137,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   } 
 
+  .mobile_view {
+    max-width: 70%;
+  }
+
   .skills_container {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12px;
@@ -169,5 +173,10 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 12px;
   }
+
+  .mobile_view {
+    max-width: 50%;
+  }
+
 
 }
